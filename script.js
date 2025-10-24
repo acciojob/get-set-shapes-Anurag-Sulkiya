@@ -1,37 +1,33 @@
 //complete this code
 class Rectangle {
-	let area = 0;
+
 	constructor(width, height){
-        this.width = width;
-		this.height = height;
+        this._width = width;
+		this._height = height;
 	}
 
 	get width(){
-      return this.width = width;
+      this._width = width;
 	}
 
 	get height(){
-       return this.height = height
+       this._height = height
 	}
-	get width(){
-       return this.width = width;
-	}
-	
+
 	getArea(){
-		let area = this.width * this.height;
+		return this.width * this.height;
 	}
 }
 
 class Square extends Rectangle {
-	let side;
-	let perimeter;
-	constructor(width, height){
-       super(height, width);
+
+	constructor(side){
+       super(side, side);
+		this._side = side;
 	}
 	
-    side = this.height = this.width;
 	getPerimeter(){
-		perimeter = 4*this.side;
+		return 4*this._side;
 	}
 	
 }
