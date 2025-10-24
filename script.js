@@ -32,6 +32,17 @@ class Square extends Rectangle {
 	
 }
 
+const rectangle = new Rectangle(5,10);
+console.log(Rectangle.width);
+console.log(Rectangle.height);
+console.log(Rectangle.getArea());
+
+const square = new Square(7);
+console.log(square.width);
+console.log(square.height);
+console.log(square.getArea());
+console.log(square.getPerimeter());
+
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
