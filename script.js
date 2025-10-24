@@ -1,7 +1,8 @@
 //complete this code
 class Rectangle {
 
-	constructor(width, height){
+	constructor(width, height)
+	{
         this._width = width;
 		this._height = height;
 	}
@@ -33,7 +34,7 @@ class Square extends Rectangle {
 }
 
 const rectangle = new Rectangle(5,10);
-console.log(rectangleectangle.width);
+console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.getArea());
 
