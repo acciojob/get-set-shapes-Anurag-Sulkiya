@@ -7,11 +7,11 @@ class Rectangle {
 	}
 
 	get width(){
-      this._width = width;
+      return this._width;
 	}
 
 	get height(){
-       this._height = height
+       return this._height;
 	}
 
 	getArea(){
@@ -33,9 +33,9 @@ class Square extends Rectangle {
 }
 
 const rectangle = new Rectangle(5,10);
-console.log(Rectangle.width);
-console.log(Rectangle.height);
-console.log(Rectangle.getArea());
+console.log(rectangleectangle.width);
+console.log(rectangle.height);
+console.log(rectangle.getArea());
 
 const square = new Square(7);
 console.log(square.width);
